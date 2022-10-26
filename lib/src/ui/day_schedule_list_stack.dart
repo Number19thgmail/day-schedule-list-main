@@ -49,7 +49,9 @@ class DayScheduleListStack extends StatelessWidget {
           top: 0,
           left: 35,
           bottom: 0,
-          child: VerticalDivider(),
+          child: VerticalDivider(
+            color: Colors.grey,
+          ),
         ),
         ...internalUnavailableIntervals,
         ...appointments,
