@@ -32,7 +32,9 @@ class TimeOfDayWidget extends StatelessWidget {
             width: 8,
           ),
           const Expanded(
-            child: Divider(),
+            child: Divider(
+              color: Colors.grey,
+            ),
           ),
         ],
       ),
