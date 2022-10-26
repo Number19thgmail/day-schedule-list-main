@@ -29,7 +29,7 @@ class TimeOfDayWidget extends StatelessWidget {
             context: context,
           ),
           const SizedBox(
-            width: 8,
+            width: 4,
           ),
           const Expanded(
             child: Divider(
